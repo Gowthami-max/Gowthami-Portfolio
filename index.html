@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gowthami M | Full Stack Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #1e90ff;
+      --dark: #004080;
+      --light: #f4f8fb;
+      --accent: #ffbd59;
+      --text: #333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: var(--light);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(120deg, var(--dark), var(--primary));
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+      clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      font-style: italic;
+    }
+
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+      border-left: 5px solid var(--accent);
+      padding-left: 0.5rem;
+    }
+
+    .skills ul,
+    .projects ul {
+      list-style-type: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .skills li,
+    .projects li {
+      background: white;
+      border-left: 4px solid var(--primary);
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+
+    .contact {
+      background: var(--dark);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .contact a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      padding: 1rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gowthami M</h1>
+    <p>Full Stack Developer & UI/UX Enthusiast</p>
+  </header>
+
+<section class="about">
+  <h2>About Me</h2>
+  <p>
+    Hello! I’m <strong>Gowthami M</strong>, a passionate and self-motivated <strong>Full Stack Web Developer</strong> currently pursuing B.E. in Computer Science and Engineering (2026 batch). I thrive on turning complex problems into elegant, scalable digital solutions.
+    <br><br>
+    I have hands-on experience with technologies such as <strong>HTML, CSS, JavaScript, Angular, TypeScript, Java, MySQL,  and UI/UX design</strong>. From building dynamic user interfaces to developing robust backend systems, I enjoy crafting full-fledged web applications from scratch.
+    <br><br>
+    I’m deeply driven by curiosity and continuous learning. Whether I’m working on a responsive layout, designing databases, or experimenting with new tools — I believe in creating tech that not only functions well but delivers a great experience.
+  </p>
+</section>
+
+ <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML / CSS / JavaScript</li>
+      <li>Angular & TypeScript</li>
+      <li>Java Programming</li>
+      <li>React.js & Node.js</li>
+      <li>Full Stack Web Development</li>
+      <li>MongoDB & MySQL</li>
+      <li>UI/UX Design</li>
+      <li>API Integration</li>
+    </ul>
+  </section>
+<section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong> Topic Modeling on News Articles</strong><br>
+        <em>Python, NLP, scikit-learn</em><br>
+        Implemented topic modeling to extract hidden topics from news datasets using LDA. Applied preprocessing, vectorization, and visualization for better insights.
+        <br><strong>Status:</strong> Completed
+      </li>
+      <li>
+        <strong> Weather Dashboard using API</strong><br>
+        <em>HTML, CSS, JavaScript, OpenWeather API</em><br>
+        Built a dynamic weather forecast dashboard that fetches real-time data using REST APIs and displays temperature, humidity, and more.
+        <br><strong>Status:</strong> Completed
+      </li>
+      <li>
+        <strong> Real-Time Chat App</strong><br>
+        <em>WebSocket, Node.js, Express</em><br>
+        Developed a live chat application with multi-user support, message broadcasting, and persistent connection using WebSocket protocol.
+        <br><strong>Status:</strong> Completed
+      </li>
+      <li>
+        <strong> Real-Time Collaborative Document Editor</strong><br>
+        <em>React.js, Node.js, MongoDB, WebSocket</em><br>
+        Created a Google Docs-style editor supporting real-time typing and collaboration with socket-based synchronization.
+        <br><strong>Status:</strong> Completed
+      </li>
+      <li>
+        <strong> Chrome Extension for Time Tracking</strong><br>
+        <em>JavaScript, Chrome API, MongoDB, Express</em><br>
+        Designed and built a browser extension that monitors time spent on websites, classifies them as productive/unproductive, and provides weekly productivity reports through a dashboard.
+        <br><strong>Status:</strong> In Progress
+      </li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Let's Connect</h2>
+    <p>Email: <a href="mailto:https://mail.google.com/mail">ammugowthami025@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/Gowthami-max">https://github.com/Gowthami-max</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Gowthami M. All rights reserved.
+  </footer>
+</body>
+</html>
